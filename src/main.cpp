@@ -4,6 +4,6 @@
 int main() {
     int b = 5;
     int c = 3;
-    int col = power(b, c)
+    int col = power(b, c);
     return col;
 }
