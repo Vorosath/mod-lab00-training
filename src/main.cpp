@@ -2,5 +2,8 @@
 #include "fun.h"
 
 int main() {
-    return 0;
+    int b = 5;
+    int c = 3;
+    int col = power(b, c)
+    return col;
 }
