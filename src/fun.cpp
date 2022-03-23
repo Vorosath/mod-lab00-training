@@ -2,5 +2,10 @@
 #include "fun.h"
 
 int64_t power(int64_t x, uint16_t n) {
-    return 0;
+    int a = 1;
+    int i;
+    for (int i = 0, i < n, i++) {
+        a = a * x;
+    }
+    return a;
 }
